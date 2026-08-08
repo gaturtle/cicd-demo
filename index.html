@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CI/CD Learning Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>CI/CD Learning Demo</h1>
+    <p>This tiny static site exists to practice a real CI/CD pipeline:</p>
+    <ul>
+      <li>Every push and pull request runs an automated lint/build check (CI).</li>
+      <li>Every push to <code>main</code> that passes CI auto-deploys here (CD).</li>
+    </ul>
+    <p id="build-stamp">Not yet deployed.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
